@@ -165,6 +165,20 @@ a {
 
 }
 
+/* ---- TABLET ---- */
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .parent {
+    width: 70%;        
+    column-gap: 2.5rem;
+  }
+
+  .brain-img,
+  .chicken-wing {
+    width: 200px;      
+  }
+}
+
 /* ---- MOBILE ---- */
 
 @media (max-width: 768px) {
